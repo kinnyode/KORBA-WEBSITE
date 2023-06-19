@@ -300,9 +300,8 @@ border-radius: 30px;
     display: flex;
     width: 100%;
     background-color: #1A1A1A;
-   padding: 30px;
    justify-content: center;
-
+padding-top: 20px;
 }
 
 .purplebox{
@@ -449,17 +448,17 @@ object-fit: contain;
     }
 
     .image2{
-        height: 100%;
+        height: 400px;
         width: 100%;
     
     }
 
     .divone{
-        height: 150px;
+        height: 100%;
     }
 
     .divtwo{
-        height: 150px;
+        height: 100%;
     }
 
     .purplebox{
@@ -487,9 +486,12 @@ object-fit: contain;
         font-size: 13px;
     }
 
-    .newsection{
-        justify-content: center;
-        gap: 70px;
+   
+        .newsection {
+            justify-content: center;
+            gap: 30px;
+            flex-direction: column;
+            padding: 30px;
     }
     
 .footer1 img {
@@ -498,18 +500,22 @@ object-fit: contain;
 }
 .imgassets h2{
     
-        font-size: 10px;
+        font-size: 30px;
     
 }
 
 .imgassets{
-    gap: 10px;
+    gap: 15px;
 }
 
 .imgassets p{
     
-        font-size: 5px;
+        font-size: 15px;
     
+}
+
+.twoimages{
+    flex-direction: column;
 }
 
 }
